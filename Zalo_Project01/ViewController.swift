@@ -16,12 +16,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tablelView.delegate = self
         tablelView.dataSource = self
-    tablelView.register(UINib(nibName: "Custom_TablelView", bundle: nil), forCellReuseIdentifier: "Custom_TablelView")
+        tablelView.register(UINib(nibName: "Custom_TablelView", bundle: nil), forCellReuseIdentifier: "Custom_TablelView")
         tablelView.rowHeight = CGFloat(70)
         
     }
-
-
+    
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {

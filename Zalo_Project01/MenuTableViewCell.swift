@@ -10,7 +10,7 @@ import UIKit
 
 class MenuTableViewCell: UITableViewCell {
     @IBOutlet weak var imageUser: UIImageView!
-        
+    
     @IBOutlet weak var nameUser: UILabel!
     
     @IBOutlet weak var call: UIButton!
@@ -20,21 +20,21 @@ class MenuTableViewCell: UITableViewCell {
         super.awakeFromNib()
         settingMenu()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
- 
+        
     }
     
     func settingMenu(){
         //layout image
-               imageUser.backgroundColor = .blue
-               imageUser.translatesAutoresizingMaskIntoConstraints = false
-               imageUser.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: contentView.frame.maxX/70).isActive = true
-               imageUser.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
-               imageUser.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 0.7).isActive = true
-               imageUser.widthAnchor.constraint(equalTo: imageUser.heightAnchor, multiplier: 1).isActive = true
-               imageUser.layer.cornerRadius = CGFloat(contentView.frame.maxY * 0.21)
+        imageUser.backgroundColor = .blue
+        imageUser.translatesAutoresizingMaskIntoConstraints = false
+        imageUser.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: contentView.frame.maxX/70).isActive = true
+        imageUser.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        imageUser.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 0.7).isActive = true
+        imageUser.widthAnchor.constraint(equalTo: imageUser.heightAnchor, multiplier: 1).isActive = true
+        imageUser.layer.cornerRadius = CGFloat(contentView.frame.maxY * 0.21)
         
         
         

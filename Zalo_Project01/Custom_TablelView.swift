@@ -9,16 +9,16 @@
 import UIKit
 
 class Custom_TablelView: UITableViewCell {
-
+    
     @IBOutlet weak var imageUser: UIImageView!
     @IBOutlet weak var nameUser: UILabel!
     @IBOutlet weak var contentUser: UILabel!
     @IBOutlet weak var dateUser: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-       settingLablel()
+        settingLablel()
     }
-
+    
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
@@ -45,8 +45,6 @@ class Custom_TablelView: UITableViewCell {
         
         //layout date
         dateUser.translatesAutoresizingMaskIntoConstraints = false
-//        dateUser.backgroundColor = .yellow
-        
         dateUser.leftAnchor.constraint(equalTo: nameUser.rightAnchor, constant: 5).isActive = true
         dateUser.topAnchor.constraint(equalTo: nameUser.topAnchor, constant: 0).isActive = true
         dateUser.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -contentView.frame.maxX/100).isActive = true
@@ -54,7 +52,6 @@ class Custom_TablelView: UITableViewCell {
         
         //layout content
         contentUser.translatesAutoresizingMaskIntoConstraints = false
-//        contentUser.backgroundColor = .yellow
         contentUser.topAnchor.constraint(equalTo: nameUser.bottomAnchor, constant: 5).isActive = true
         contentUser.leftAnchor.constraint(equalTo: nameUser.leftAnchor, constant: 0).isActive = true
         contentUser.heightAnchor.constraint(equalTo: nameUser.heightAnchor, multiplier: 1).isActive = true
