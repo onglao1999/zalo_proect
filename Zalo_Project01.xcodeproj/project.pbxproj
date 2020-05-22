@@ -11,6 +11,8 @@
 		9C628D722475373200DEC8D2 /* Custom_TablelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C628D702475373200DEC8D2 /* Custom_TablelView.xib */; };
 		9C628D74247537FB00DEC8D2 /* fakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C628D73247537FB00DEC8D2 /* fakeData.swift */; };
 		9CBFD3DD2476A01A009F1057 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBFD3DC2476A01A009F1057 /* MenuViewController.swift */; };
+		9CDD0A5224777360004EEA16 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD0A5024777360004EEA16 /* MenuTableViewCell.swift */; };
+		9CDD0A5324777360004EEA16 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD0A5124777360004EEA16 /* MenuTableViewCell.xib */; };
 		9CED02CA2475329C0054A111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED02C92475329C0054A111 /* AppDelegate.swift */; };
 		9CED02CC2475329C0054A111 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED02CB2475329C0054A111 /* SceneDelegate.swift */; };
 		9CED02CE2475329C0054A111 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED02CD2475329C0054A111 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		9C628D702475373200DEC8D2 /* Custom_TablelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Custom_TablelView.xib; sourceTree = "<group>"; };
 		9C628D73247537FB00DEC8D2 /* fakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeData.swift; sourceTree = "<group>"; };
 		9CBFD3DC2476A01A009F1057 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9CDD0A5024777360004EEA16 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9CDD0A5124777360004EEA16 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		9CED02C62475329C0054A111 /* Zalo_Project01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zalo_Project01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED02C92475329C0054A111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CED02CB2475329C0054A111 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				9C628D702475373200DEC8D2 /* Custom_TablelView.xib */,
 				9C628D73247537FB00DEC8D2 /* fakeData.swift */,
 				9CBFD3DC2476A01A009F1057 /* MenuViewController.swift */,
+				9CDD0A5024777360004EEA16 /* MenuTableViewCell.swift */,
+				9CDD0A5124777360004EEA16 /* MenuTableViewCell.xib */,
 			);
 			path = Zalo_Project01;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 				9CED02D62475329D0054A111 /* LaunchScreen.storyboard in Resources */,
 				9CED02D32475329D0054A111 /* Assets.xcassets in Resources */,
 				9CED02D12475329C0054A111 /* Main.storyboard in Resources */,
+				9CDD0A5324777360004EEA16 /* MenuTableViewCell.xib in Resources */,
 				9C628D722475373200DEC8D2 /* Custom_TablelView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +160,7 @@
 			files = (
 				9CED02CE2475329C0054A111 /* ViewController.swift in Sources */,
 				9CBFD3DD2476A01A009F1057 /* MenuViewController.swift in Sources */,
+				9CDD0A5224777360004EEA16 /* MenuTableViewCell.swift in Sources */,
 				9CED02CA2475329C0054A111 /* AppDelegate.swift in Sources */,
 				9CED02CC2475329C0054A111 /* SceneDelegate.swift in Sources */,
 				9C628D712475373200DEC8D2 /* Custom_TablelView.swift in Sources */,

@@ -38,7 +38,6 @@ class Custom_TablelView: UITableViewCell {
         
         //layout name
         nameUser.translatesAutoresizingMaskIntoConstraints = false
-//        nameUser.backgroundColor = .blue
         nameUser.leftAnchor.constraint(equalTo: imageUser.rightAnchor, constant: 5).isActive = true
         nameUser.topAnchor.constraint(equalTo: contentView.topAnchor, constant: contentView.frame.maxY/8).isActive = true
         nameUser.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 0.22).isActive = true
@@ -50,7 +49,7 @@ class Custom_TablelView: UITableViewCell {
         
         dateUser.leftAnchor.constraint(equalTo: nameUser.rightAnchor, constant: 5).isActive = true
         dateUser.topAnchor.constraint(equalTo: nameUser.topAnchor, constant: 0).isActive = true
-        dateUser.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: contentView.frame.maxX/50).isActive = true
+        dateUser.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -contentView.frame.maxX/100).isActive = true
         dateUser.heightAnchor.constraint(equalTo: nameUser.heightAnchor, multiplier: 0.7).isActive = true
         
         //layout content
